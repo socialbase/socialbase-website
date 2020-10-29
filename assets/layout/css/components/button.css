@@ -1,0 +1,67 @@
+/* ------------------------------------------------------------------------------- */
+/*  Button
+/* ------------------------------------------------------------------------------- */
+
+.btn {
+	width: 100%;
+	max-width: 290px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 100%;
+  letter-spacing: 2.1px;
+	text-align: center;
+	text-transform: uppercase;
+	vertical-align: middle;
+	color: #FFF;
+  background: transparent;
+  border: 1px solid transparent;
+	display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+	padding: 13.5px;
+	white-space: normal;
+	border-radius: 100px;
+	transition: color .2s ease-in-out, background .2s ease-in-out, border-color .2s ease-in-out;
+}
+
+.btn:hover,
+.btn:focus,
+.btn:active {
+	color: #FFF;
+	outline: 0;
+  text-decoration: none
+}
+
+.btn:disabled {
+	opacity: 0.65;
+	pointer-events: none;
+	touch-action: none;
+}
+
+.btn-icon > img { height: 20px; padding-right: 8px; }
+.btn-icon > span { vertical-align: middle; }
+
+.btn-lg { padding: 23.5px; }
+.btn-sm { padding: 8.5px; }
+
+.btn-link, .btn-link:visited { width: auto; max-width: 100%; font-weight: 400; color: #2698F5; letter-spacing: 0.14px; text-decoration: underline; text-transform: none; }
+.btn-link:hover, .btn-link:focus { color: #5A2ADF; text-decoration: underline; }
+
+.btn-blue, .btn-blue:visited { background: #26A0F5; }
+.btn-blue:hover, .btn-blue:focus { background: #5A2ADF; }
+
+.btn-blue-dark, .btn-blue-dark:visited { background: #5A2ADF; }
+.btn-blue-dark:hover, .btn-blue-dark:focus { background: #9D81EB; }
+
+.btn-blue-light, .btn-blue-light:visited { background: #EAE3FF; color: #9D81EB; }
+.btn-blue-light:hover, .btn-blue-light:focus { background: #A8D9FB; color: #9D81EB; }
+
+.btn-outline { color: #26A0F5; border-color: #51B3F7; }
+.btn-outline:hover, .btn-outline:focus { color: #51B3F7; }
+
+.btn-password { width: 24px; height: 40px; background: url('../../images/form/input-password-visible.svg?v=29092020') no-repeat center / auto; }
+.btn-password.visible { background: url('../../images/form/input-password-invisible.svg?v=29092020') no-repeat center / auto; }

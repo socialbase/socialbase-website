@@ -1,0 +1,26 @@
+/* ------------------------------------------------------------------------------- */
+/*  Reset
+/* ------------------------------------------------------------------------------- */
+
+@charset 'UTF-8';
+
+html,
+body {
+	height: 100%;
+}
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, strong, blockquote, cite,
+address, a, img, figure, figcaption, small, sub, b, dl, dd, dt, ul, li,
+label, article, main, aside, section, details, footer, header,
+iframe, menu, nav, form, button, input, textarea, select {
+	background: transparent;
+	border: 0;
+	outline: 0!important;
+	margin: 0;
+	padding: 0;
+	line-height: 1;
+}
+
+li {
+	list-style: none;
+}

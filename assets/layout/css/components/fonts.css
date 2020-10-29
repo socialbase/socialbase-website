@@ -1,0 +1,36 @@
+/*
+@font-face {
+    font-family:'ITC Avant Garde Gothic Std';
+    src: local('ITCAvantGardeGoticStd-XLt'), local('ITC Avant Garde Gothic Std Extra Light'), url('../../fonts/ITCAvantGardeGothicStd-XLt.woff2') format('woff2');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'ITC Avant Garde Gothic Std';
+    src: local('ITCAvantGardeGoticStd-Bk'), local('ITC Avant Garde Gothic Std Book'), url('../../fonts/ITCAvantGardeGothicStd-Bk.woff2') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0020-00FE;
+}
+
+@font-face {
+    font-family:'ITC Avant Garde Gothic Std';
+    src: local('ITCAvantGardeGoticStd-Md'), local('ITC Avant Garde Gothic Std Medium'), url('../../fonts/ITCAvantGardeGothicStd-Md.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0020-00FE;
+}
+*/
+@font-face {
+    font-family:'ITC Avant Garde Gothic Std';
+    src: local('ITCAvantGardeGoticStd-Bold'), local('ITC Avant Garde Gothic Std Bold'), url('../../fonts/ITCAvantGardeGothicStd-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    unicode-range: U+0020-00FE;
+}

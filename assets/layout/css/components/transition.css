@@ -1,0 +1,28 @@
+/* ------------------------------------------------------------------------------- */
+/*  Transition
+/* ------------------------------------------------------------------------------- */
+
+.fade {
+  transition: opacity 0.15s linear;
+}
+
+.fade:not(.show) {
+  opacity: 0;
+}
+
+.collapse:not(.show) {
+  display: none;
+}
+
+.collapsing {
+  height: 0;
+  position: relative;
+  overflow: hidden;
+  transition: height 0.35s ease;
+}
+
+@keyframes BulletPulse {
+  0% { transform: scale(1); box-shadow: 0 0 1px 1px rgba(251, 87, 70, 0.8); }
+  50% { box-shadow: 0 0 1px 1px rgba(251, 87, 70, 0.6); }
+  100% { transform: scale(1.8); box-shadow: 0 0 1px 1px rgba(251, 87, 70, 0); }
+}

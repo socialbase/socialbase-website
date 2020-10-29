@@ -1,0 +1,56 @@
+/*
+Documento CSS
+Autor: Weslei Silveira - www.wesleisilveira.com.br
+Data: 29/09/2020
+*/
+
+/* ------------------------------------------------------------------------------- */
+/*  Login
+/* ------------------------------------------------------------------------------- */
+
+body {
+  background: #F0F5FB;
+}
+
+.login {
+  padding: 50px 0;
+}
+
+.login small {
+  display: block;
+  margin-top: 10px;
+}
+
+.login small a {
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.36px;
+  color: #221E39;
+  text-decoration: underline;
+}
+
+.login h2 {
+  margin-bottom: 10px;
+}
+
+.login h2 ~ small {
+  color: #5A2ADF;
+}
+
+.login form {
+  margin-top: 30px;
+}
+
+.login .tab-content {
+  max-width: 500px;
+  background: #FFF;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 0 17px 20px 0 rgba(65, 30, 165, 0.1);
+  margin: 60px auto;
+  padding: 40px 60px 10px;
+}
+
+.login .btn {
+  max-width: 350px;
+}

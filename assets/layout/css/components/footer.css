@@ -1,0 +1,58 @@
+/* ------------------------------------------------------------------------------- */
+/*  Footer
+/* ------------------------------------------------------------------------------- */
+
+.footer {
+  background: #082031;
+  padding: 35px 0 60px;
+}
+
+.footer p {
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.14px;
+  color: #A8D9FB;
+  word-break: break-word;
+  margin: 35px 0 38px;
+}
+
+.footer a {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.16px;
+  color: #D4ECFD;
+  word-break: break-word;
+  margin-top: 20px;
+}
+
+.footer h6 {
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 1.26px;
+  text-transform: uppercase;
+  color: #E5E5E5;
+  margin-top: 61px;
+}
+
+.footer .phone,
+.footer .email,
+.footer .address {
+  padding-left: 25px;
+}
+
+.footer .phone { background: url('../../images/icons/icon-phone.svg') no-repeat left 5px / 15px; }
+.footer .email { background: url('../../images/icons/icon-email.svg') no-repeat left 8px / 16px; }
+.footer .address { background: url('../../images/icons/icon-address.svg') no-repeat left 4px / 12px; }
+
+.footer .icon-facebook,
+.footer .icon-instagram,
+.footer .icon-youtube,
+.footer .icon-linkedin {
+  display: inline-block;
+  margin: 6px 11px
+}
+
+.footer .icon-facebook { width: 9px; height: 18px; background: url('../../images/icons/icon-social-facebook.svg') no-repeat center / cover; }
+.footer .icon-instagram { width: 20px; height: 19px; background: url('../../images/icons/icon-social-instagram.svg') no-repeat center / cover; }
+.footer .icon-youtube { width: 22px; height: 22px; background: url('../../images/icons/icon-social-youtube.svg') no-repeat center / cover; }
+.footer .icon-linkedin { width: 18px; height: 20px; background: url('../../images/icons/icon-social-linkedin.svg') no-repeat center / cover; }
