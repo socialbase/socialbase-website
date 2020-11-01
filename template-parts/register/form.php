@@ -120,7 +120,7 @@
             <div class="form-group">
     					<label for="company_url">Escolha a URL para sua empresa</label>
               <div class="input-group">
-                <input type="url" name="company_url" id="company_url" class="form-control" />
+                <input type="text" name="company_url" id="company_url" class="form-control" />
                 <div class="input-group-append"><span class="input-group-text">.socialbase.com.br</span></div>
               </div>
     				</div>
