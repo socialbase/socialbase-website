@@ -20,7 +20,7 @@ var RegisterSB = ( function () {
 
   var sb_events = function () {
 
-    $('.nav li a').on( 'click', false ); //Descomentar essa linha após concluir integração
+    //$('.nav li a').on( 'click', false ); //Descomentar essa linha após concluir integração
 
     $('.btn-prev').on( 'click', function () {
       var prev = $('.nav li a.active').parent().prev().find('a').attr('href');
@@ -29,13 +29,15 @@ var RegisterSB = ( function () {
       }
     });
 
-    // Adicionar .btn-next caso utilizar esse metodo
+// Adicionar .btn-next caso utilizar esse metodo
+/*
     $('.btn-next').on( 'click', function () {
       var next = $('.nav li a.active').parent().next().find('a').attr('href');
       if ( typeof next != 'undefined' && next.length > 0 ) {
         $('.nav li a[href="'+next+'"]').tab('show');
       }
     });
+*/
   };
 
   var sb_password = function () {
