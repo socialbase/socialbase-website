@@ -2,7 +2,7 @@
 
   <a href="<?= SITE_URL; ?>"><img src="<?= ASSETS_IMAGES_URI; ?>/logos/socialbase-logo.svg" alt="SocialBase" /></a>
 
-  <div class="card">
+  <div class="card" id="form-card">
 
     <h1>É hora de fazer sua <br class="d-none d-sm-block" /> comunicação acontecer.</h1>
     <p>Preencha os campos para começar seu teste.</p>
@@ -15,6 +15,9 @@
 
     <form id="form-register" autocomplete="off">
       <fieldset>
+        <input type="text" hidden name="conversion_identifier" id="conversion_identifier" value="Formulário de Trial - Site Novo" class="form-control" />
+        <input type="text" hidden name="order_type" id="order_type" value="Pedido de Trial" class="form-control" />
+        <input type="text" hidden name="tech" id="register_tech">
 
         <div class="tab-content">
 
@@ -113,21 +116,16 @@
           <div class="tab-pane fade" id="step3">
 
             <div class="form-group">
-    					<label for="company_name">Empresa</label>
-    					<input type="text" name="company_name" id="company_name" class="form-control" />
-    				</div>
-
-            <div class="form-group">
     					<label for="company_url">Escolha a URL para sua empresa</label>
               <div class="input-group">
                 <input type="text" name="company_url" id="company_url" class="form-control" />
                 <div class="input-group-append"><span class="input-group-text">.socialbase.com.br</span></div>
-              </div>
+            </div>
     				</div>
 
             <div class="form-group">
-    					<label for="repeat2">Em qual setor da empresa você atua?</label>
-    					<input type="text" name="repeat2" id="repeat2" class="form-control" />
+    					<label for="department">Em qual setor da empresa você atua?</label>
+    					<input type="text" name="department" id="department" class="form-control" />
     				</div>
 
             <div class="form-group">
@@ -140,7 +138,7 @@
 
         </div>
 
-        <div class="form-group">
+        <div class="form-group" id="form-buttons">
           <button type="button" class="btn btn-link btn-prev">Voltar</button>
           <button type="submit" class="btn btn-blue btn-next float-right">Continuar</button>
         </div>
@@ -150,4 +148,45 @@
 
   </div>
 
-</div>
+  <div class="card" style="display: none" id="response-card">
+    <h1>Tudo certo para você começar!</h1>
+    <p>Agora você tem acesso a tudo que precisa para construir uma comunicação mais simples, transparente e organizada para que todos na sua empresa trabalhem melhor e mais felizes.</p>
+    <hr>
+    <h4>INFORMAÇÕES DE LOGIN</h4>
+    <p class="response-infos">EMAIL: <span class="purple" id="response-email"></span></p>
+    <p class="response-infos">SENHA: <span class="purple">como escolhida anteriormente</span></p>
+    <hr>
+
+    <a id="response-url-id" type="button" target="_blank" class="btn btn-blue">ACESSE A PLATAFORMA</a>
+  </div>
+
+</div>  
+
+
+<style>
+#response-card hr {
+  margin-bottom: 40px;
+}
+#response-card h4 {
+  letter-spacing: 0.09em;
+  font-weight: 700;
+}
+#response-card .response-infos {
+  font-size: 12px;
+  font-weight: 700;
+  color: #000;
+}
+
+#response-card span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #5A2ADF;
+  margin-left: 10px;
+}
+
+#response-card .btn {
+  width: 100%;
+  max-width: 100% !important;
+  margin-bottom: 30px;
+}
+</style>

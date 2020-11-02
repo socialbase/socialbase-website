@@ -157,4 +157,13 @@ var LeadSB = ( function () {
 // Init Module
 $( function () {
   LeadSB.init();
+  checkDevice()
 });
+
+function checkDevice() {
+  if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+    $('#modal_tech').val('Mobile');
+  } else {
+    $('#modal_tech').val('Desktop');
+  }
+};

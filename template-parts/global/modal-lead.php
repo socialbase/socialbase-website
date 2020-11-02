@@ -17,6 +17,7 @@
           <fieldset>
             <input type="text" hidden name="conversion_identifier" id="conversion_identifier" value="Formulário de Demonstração - Site Novo" class="form-control" />
             <input type="text" hidden name="order_type" id="order_type" value="Pedido de demonstração" class="form-control" />
+            <input type="text" hidden name="tech" id="modal_tech">
 
             <div class="form-group">
               <label for="lead_email">E-mail</label>

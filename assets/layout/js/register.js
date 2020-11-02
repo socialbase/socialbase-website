@@ -20,7 +20,7 @@ var RegisterSB = ( function () {
 
   var sb_events = function () {
 
-    //$('.nav li a').on( 'click', false ); //Descomentar essa linha após concluir integração
+    $('.nav li a').on( 'click', false ); //Descomentar essa linha após concluir integração
 
     $('.btn-prev').on( 'click', function () {
       var prev = $('.nav li a.active').parent().prev().find('a').attr('href');
@@ -94,6 +94,33 @@ var RegisterSB = ( function () {
         email: {
           required: true,
           email: true
+        },
+        name: {
+          required: true,
+        },
+        company: {
+          required: true,
+        },
+        password: {
+          required: true,
+        },
+        company_name: {
+          required: true,
+        },
+        company_employees: {
+          required: true,
+        },
+        company_office: {
+          required: true,
+        },
+        company_sector: {
+          required: true,
+        },
+        company_certificate: {
+          required: true,
+        },
+        department: {
+          required: true,
         }
       },
       messages: {
@@ -102,7 +129,7 @@ var RegisterSB = ( function () {
           email: 'Informe um e-mail válido'
         }
       },
-      submitHandler: sb_submit.register //ou sb_submit.nexting
+      submitHandler: sb_submit.nexting //ou sb_submit.nexting
     });
 
 	};
@@ -113,8 +140,10 @@ var RegisterSB = ( function () {
     nexting: function () {
 
       var next = $('.nav li a.active').parent().next().find('a').attr('href');
-      if ( typeof next != 'undefined' && next.length > 0 ) {
+      if ( typeof next != 'undefined' && next.length > 0) {
         $('.nav li a[href="'+next+'"]').tab('show');
+      } else {
+        sb_submit.register();
       }
 
     },
@@ -148,6 +177,10 @@ var RegisterSB = ( function () {
 		register: function ( data ) {
 
       if ( data == 'success' ) {
+        $('#form-card').hide();
+        $('#response-card').show();
+        $('#response-email').html('example@example.com');
+        $('#response-url-id').attr('href', 'https://socialbase.socialbase.com.br');
       }
 
     },
@@ -176,4 +209,13 @@ var RegisterSB = ( function () {
 // Init Module
 $( function () {
   RegisterSB.init();
+  checkDevice()
 });
+
+function checkDevice() {
+  if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+    $('#register_tech').val('Mobile');
+  } else {
+    $('#register_tech').val('Desktop');
+  }
+};
