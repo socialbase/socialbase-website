@@ -174,13 +174,14 @@ var RegisterSB = ( function () {
 
   var sb_return = {
 
-		register: function ( data ) {
+		register: function ( response ) {
+      let data = JSON.parse(response);
 
-      if ( data == 'success' ) {
+      if ( data ) {
         $('#form-card').hide();
         $('#response-card').show();
-        $('#response-email').html('example@example.com');
-        $('#response-url-id').attr('href', 'https://socialbase.socialbase.com.br');
+        $('#response-email').html(data.email);
+        $('#response-url-id').attr('href', data.url);
       }
 
     },

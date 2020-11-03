@@ -16,7 +16,7 @@
     $company_url = $_POST['company_url'];
     $department = $_POST['department'];
     $company_invite = $_POST['company_invite'];
-    $phone = '';
+    $phone = '8932139821';
     $tech = $_POST['tech'];
 
     if ($company_invite) {
@@ -26,31 +26,40 @@
     }
 
     if ($company_url) {
-      $company_url = $company_url . '.socialbase.com.br';
+      $company_url = 'https://' . $company_url . '.socialbase.com.br';
     }
 
     try{
       // SEND TO PQL MANAGER
-      // $url = 'https://pql-manager.socialbase.com.br/';
-      // $data = array(
-      //   'name' => $name,
-      //   'email' => $email,
-      //   'company_name' => $company,
-      //   'password' => $password,
-      //   'invites' => '',
-      // );
+      $url = 'https://pql-manager.socialbase.com.br/';
+      $data = array(
+        'name' => $name,
+        'email' => $email,
+        'password' => $password,
+        'job_title' => $company_office,
+        'phone' => $phone,
+        'url' => $company_url,
+        'invites' => '',
+      );
 
-      // $options = array(
-      //   'http' => array(
-      //     'header'  => "Content-type: application/json",
-      //     'method'  => 'POST',
-      //     'content' => http_build_query($data),
-      //   )
-      // );
-      // $context  = stream_context_create($options);
-      // $result = file_get_contents($url, false, $context);
+      $options = array(
+        'http' => array(
+          'header'  => "Content-type: application/json",
+          'method'  => 'POST',
+          'content' => json_encode($data),
+        )
+      );
+      $context  = stream_context_create($options);
+      $pqlResult = file_get_contents($url, false, $context);
+      $pqlResult = json_decode($pqlResult);
 
-      //Envia os dados para RD, primeiro argumento é o token privado e o segundo o publico
+      if ($pqlResult === FALSE) {
+        throw new Exception('Erro ao enviar para o relatório');
+      } else {
+        $company_url = $pqlResult->url;
+      }
+
+      // Envia os dados para RD, primeiro argumento é o token privado e o segundo o publico
       $rdAPI = new RDStationAPI("b4c77961b56365cf0c3473428348926d","26a20461c98ce755c35e78c47fd23205");
       $returnoRD = $rdAPI->sendNewLead($email,array(
         'identificador' => $conversion_identifier,
@@ -63,10 +72,10 @@
         'convidados-trial' => $company_invite,
         'tipo-pedido' => $order_type,
         'GPTW' => $company_certificate,
+        'rede-url' => $company_url,
         'origem-pedido' => $conversion_identifier,
+        'data-final' => date('d/m/Y',strtotime('+30 days')),
         // 'traffic_source' => $_POST['trafego'],
-        // 'data-final' => $_POST['final_date'],
-        // 'rede-url' => $_POST['sb_url'],
         // 'tech' => $_POST['tech'],
         // 'primeiro-passo' => $_POST['primeiro_passo'],
         // 'finalizou' => $_POST['finalizou'],
@@ -93,7 +102,7 @@
         'invites' => $company_invite,
         'started_at' => date("d/m/y"),
         'end_at' => date('d/m/Y',strtotime('+30 days')),
-        'url' => 'null',
+        'url' => $company_url,
         'department_job' => $company_sector . '|' . $company_office,
         'origin_tipo' => $conversion_identifier . '|' . $order_type,
         'company_companysize' => $company . '|' . $company_employees,
@@ -117,7 +126,13 @@
       }
 
       unset($_POST['id']);
-      echo 'success';
+      $array = array(
+        'url' => $company_url,
+        'email' => $email,
+      );
+
+      $array = json_encode($array);
+      echo $array;
 
     } catch(Exception $e){
         echo $e -> getMessage();
