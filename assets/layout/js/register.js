@@ -18,6 +18,28 @@ var RegisterSB = ( function () {
   /*  Private Functions
   /* ------------------------------------------------------------------------------- */
 
+  var sb_mask = function () {
+    if ( typeof $.fn.mask !== 'undefined' ) {
+
+      var phone = $('#phone');
+      console.log(phone);
+
+      phone.bind( 'paste', function (e) { e.preventDefault(); } );
+
+      var SPMaskBehavior = function (val) { return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009'; },
+        spOptions = {
+        onKeyPress : function (val, e, field, options) {
+          field.mask(SPMaskBehavior.apply({}, arguments), options);
+        },
+        clearIfNotMatch : true
+      };
+
+      phone.mask( SPMaskBehavior, spOptions );
+
+    }
+
+	};
+
   var sb_events = function () {
 
     $('.nav li a').on( 'click', false ); //Descomentar essa linha após concluir integração
@@ -201,6 +223,8 @@ var RegisterSB = ( function () {
       sb_password();
       sb_slider();
       sb_form();
+      sb_mask();
+      checkDevice();
     }
 
   };
@@ -210,7 +234,6 @@ var RegisterSB = ( function () {
 // Init Module
 $( function () {
   RegisterSB.init();
-  checkDevice()
 });
 
 function checkDevice() {

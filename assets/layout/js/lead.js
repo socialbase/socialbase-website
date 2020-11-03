@@ -148,6 +148,7 @@ var LeadSB = ( function () {
     init: function () {
       sb_mask();
       sb_form();
+      checkDevice();
     }
 
   };
@@ -157,7 +158,6 @@ var LeadSB = ( function () {
 // Init Module
 $( function () {
   LeadSB.init();
-  checkDevice()
 });
 
 function checkDevice() {

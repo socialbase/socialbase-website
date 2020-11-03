@@ -29,6 +29,11 @@
     				</div>
 
             <div class="form-group">
+    					<label for="phone">Telefone</label>
+    					<input type="tel" name="phone" id="phone" class="form-control" />
+    				</div>
+
+            <div class="form-group">
     					<label for="name">Nome Completo</label>
     					<input type="text" name="name" id="name" class="form-control" />
     				</div>
@@ -160,8 +165,7 @@
     <a id="response-url-id" type="button" target="_blank" class="btn btn-blue">ACESSE A PLATAFORMA</a>
   </div>
 
-</div>  
-
+</div>
 
 <style>
 #response-card hr {
