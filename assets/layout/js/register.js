@@ -48,6 +48,10 @@ var RegisterSB = ( function () {
       var prev = $('.nav li a.active').parent().prev().find('a').attr('href');
       if ( typeof prev != 'undefined' && prev.length > 0 ) {
         $('.nav li a[href="'+prev+'"]').tab('show');
+        
+        if (prev === '#step1') {
+          $('#back').css('display', 'none');
+        }
       }
     });
 
@@ -125,6 +129,7 @@ var RegisterSB = ( function () {
         },
         password: {
           required: true,
+          minlength: 8,
         },
         company_name: {
           required: true,
@@ -139,9 +144,6 @@ var RegisterSB = ( function () {
           required: true,
         },
         company_certificate: {
-          required: true,
-        },
-        department: {
           required: true,
         }
       },
@@ -164,6 +166,11 @@ var RegisterSB = ( function () {
       var next = $('.nav li a.active').parent().next().find('a').attr('href');
       if ( typeof next != 'undefined' && next.length > 0) {
         $('.nav li a[href="'+next+'"]').tab('show');
+
+        console.log(next);
+        if (next === '#step2') {
+          $('#back').css('display', 'block');
+        }
       } else {
         sb_submit.register();
       }

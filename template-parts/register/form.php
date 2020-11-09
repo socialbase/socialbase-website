@@ -22,10 +22,9 @@
         <div class="tab-content">
 
           <div class="tab-pane fade show active" id="step1">
-
             <div class="form-group">
-    					<label for="email">E-mail</label>
-    					<input type="email" name="email" id="email" value="<?= ( !empty( $_REQUEST['email'] ) ? $_REQUEST['email'] : '' ); ?>" class="form-control" />
+    					<label for="name">Nome Completo</label>
+    					<input type="text" name="name" id="name" class="form-control" />
     				</div>
 
             <div class="form-group">
@@ -34,8 +33,8 @@
     				</div>
 
             <div class="form-group">
-    					<label for="name">Nome Completo</label>
-    					<input type="text" name="name" id="name" class="form-control" />
+    					<label for="email">E-mail</label>
+    					<input type="email" name="email" id="email" value="<?= ( !empty( $_REQUEST['email'] ) ? $_REQUEST['email'] : '' ); ?>" class="form-control" />
     				</div>
 
             <div class="form-group">
@@ -46,7 +45,7 @@
             <div class="form-group">
               <label for="password">Senha</label>
               <div class="input-group">
-                <input type="password" name="password" id="password" class="form-control" />
+                <input type="password" placeholder="Mínimo 8 dígitos" name="password" id="password" class="form-control" />
                 <div class="input-group-append">
                   <button type="button" class="btn btn-password">&nbsp;</button>
                 </div>
@@ -129,11 +128,6 @@
     				</div>
 
             <div class="form-group">
-    					<label for="department">Em qual setor da empresa você atua?</label>
-    					<input type="text" name="department" id="department" class="form-control" />
-    				</div>
-
-            <div class="form-group">
     					<label for="company_invite">Convide colaboradores para fazer <br /> parte da sua equipe na SocialBase</label>
     					<input type="text" name="company_invite" id="company_invite" class="form-control" />
               <small class="form-text">Separe os e-mails usando uma vírgula.</small>
@@ -144,7 +138,7 @@
         </div>
 
         <div class="form-group" id="form-buttons">
-          <button type="button" class="btn btn-link btn-prev">Voltar</button>
+          <button type="button" id="back" style="display: none" class="btn btn-link btn-prev">Voltar</button>
           <button type="submit" class="btn btn-blue btn-next float-right">Continuar</button>
         </div>
 
@@ -173,17 +167,19 @@
 }
 #response-card h4 {
   letter-spacing: 0.09em;
-  font-weight: 700;
+  font-weight: 700 !important;
+  font-family: 'Montserrat', sans-serif;
 }
 #response-card .response-infos {
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 700 !important;
   color: #000;
 }
 
 #response-card span {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
   color: #5A2ADF;
   margin-left: 10px;
 }
@@ -192,5 +188,9 @@
   width: 100%;
   max-width: 100% !important;
   margin-bottom: 30px;
+}
+
+#response-card {
+  font-family: 'Montserrat', sans-serif !important;
 }
 </style>

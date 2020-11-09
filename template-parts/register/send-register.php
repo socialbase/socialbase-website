@@ -14,7 +14,7 @@
     $company_office = $_POST['company_office'];
     $company_sector = $_POST['company_sector'];
     $company_url = $_POST['company_url'];
-    $department = $_POST['department'];
+    $department = $_POST['company_sector'];
     $company_invite = $_POST['company_invite'];
     $phone = '8932139821';
     $tech = $_POST['tech'];
