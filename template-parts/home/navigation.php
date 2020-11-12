@@ -16,11 +16,11 @@
 					<li class="nav-item"><a href="#funcionalidades" class="nav-link" rel="nofollow">Funcionalidades</a></li>
 					<li class="nav-item"><a href="#comparativo" class="nav-link" rel="nofollow">Comparativo</a></li>
 					<li class="nav-item"><a href="#depoimentos" class="nav-link" rel="nofollow">Depoimentos</a></li>
-					<li class="nav-item d-md-none"><a href="<?= SITE_URL; ?>/cadastro" class="nav-link">Teste a SocialBase</a></li>
+					<li class="nav-item d-md-none"><a href="<?= SITE_URL; ?>/cadastro" class="nav-link">Teste o SocialBase</a></li>
 				</ul>
 			</div>
 
-			<a href="<?= SITE_URL; ?>/cadastro" class="btn btn-blue-dark btn-sm w-auto px-3 d-none d-lg-block">Teste a SocialBase</a>
+			<a href="<?= SITE_URL; ?>/cadastro" class="btn btn-blue-dark btn-sm w-auto px-3 d-none d-lg-block">Teste o SocialBase</a>
 
 		</div>
 	</nav>

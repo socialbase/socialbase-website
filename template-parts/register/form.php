@@ -147,11 +147,11 @@
 
   </div>
 
-  <div class="card" style="display: none" id="response-card">
+  <div class="card" id="response-card">
     <h1>Tudo certo para você começar!</h1>
     <p>Agora você tem acesso a tudo que precisa para construir uma comunicação mais simples, transparente e organizada para que todos na sua empresa trabalhem melhor e mais felizes.</p>
     <hr>
-    <h4>INFORMAÇÕES DE LOGIN</h4>
+    <h1 class="infos">INFORMAÇÕES DE LOGIN</h1>
     <p class="response-infos">EMAIL: <span class="purple" id="response-email"></span></p>
     <p class="response-infos">SENHA: <span class="purple">como escolhida anteriormente</span></p>
     <hr>
@@ -165,15 +165,15 @@
 #response-card hr {
   margin-bottom: 40px;
 }
-#response-card h4 {
+#response-card .infos {
   letter-spacing: 0.09em;
-  font-weight: 700 !important;
-  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
 }
+
 #response-card .response-infos {
   font-size: 12px;
   font-weight: 700 !important;
-  color: #000;
+  color: #38416F !important;
 }
 
 #response-card span {

@@ -24,7 +24,7 @@
   <blockquote>
     <img src="<?= ASSETS_IMAGES_URI; ?>/testimonials/socialbase-ilustra-zema.png" width="414" height="400" class="img-fluid mb-50" alt="Khomp" />
     <h2>A visão de todos <br class="d-none d-sm-block" /> importa para o resultado</h2>
-    <p>“No Grupo Zema os colaboradores, sejam eles de qualquer cargo ou localidade, tem voz e tem visibilidade. Eles sempre tiveram acesso às informações importantes mas agora com o SocialBase eles podem participar em tempo real.”</p>
+    <p>“No Grupo Zema os colaboradores, sejam eles de qualquer cargo ou localidade, têm voz e tem visibilidade. Eles sempre tiveram acesso às informações importantes mas agora com o SocialBase eles podem participar em tempo real.”</p>
     <figure><img src="<?= ASSETS_IMAGES_URI; ?>/clients/socialbase-cliente-zema.png" width="200" height="70" alt="Khomp" /></figure>
   </blockquote>
 

@@ -29,7 +29,7 @@
         <h2>Mais que acompanhar, <br class="d-none d-sm-block" /> a ideia é planejar junto.</h2>
         <p>Uma coisa é fato, você não está sozinho nessa. Para sua comunicação fluir, a gente vai estar do seu lado em todo o processo. Sim, um consultor especialmente para te ajudar no que for preciso. Quer diferencial maior que esse? Então prepare-se para planejar suas próximas estratégias de comunicação interna junto com a gente.</p>
         <blockquote class="mt-20">
-          <p>"A cultura da Senior sempre foi muito colaborativa e nosso desafio era fazer a comunicação interna também promover essa colaboração, buscar a descentralização e ser mais rápida. Encontramos na SocialBase uma solução completa porque, além da ferramenta, a gente tem um apoio de estratégia por trás."</p>
+          <p>A cultura da Senior sempre foi muito colaborativa e nosso desafio era fazer a comunicação interna também promover essa colaboração, buscar a descentralização e ser mais rápida. Encontramos na SocialBase uma solução completa porque, além da ferramenta, a gente tem um apoio de estratégia por trás.</p>
           <cite><strong>Fernanda Mueller</strong> Analista de Comunicação Interna - Senior</cite>
         </blockquote>
       </div>

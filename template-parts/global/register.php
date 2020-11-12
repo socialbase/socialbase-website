@@ -14,7 +14,7 @@
             <div class="form-group">
               <div class="input-group">
                 <input type="email" name="email" value="<?= ( !empty( $_GET['email'] ) ? $_GET['email'] : '' ); ?>" class="form-control" placeholder="<?= ( !empty( $form_text_input ) ? $form_text_input : 'Preencha com seu e-mail corporativo' ); ?>" />
-                <button type="submit" name="button" class="btn btn-blue"><?= ( !empty( $form_text_button ) ? $form_text_button : 'Teste a socialbase' ); ?></button>
+                <button type="submit" name="button" class="btn btn-blue"><?= ( !empty( $form_text_button ) ? $form_text_button : 'Teste o socialbase' ); ?></button>
               </div>
             </div>
           </fieldset>

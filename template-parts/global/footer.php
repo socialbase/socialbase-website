@@ -16,7 +16,7 @@
 
               <div class="nav flex-column pl-3 pl-md-5">
                 <h6>A SocialBase</h6>
-                <a href="https://socialbase.workable.com" target="_blank" rel="noreferrer">Seja um Baser</a>
+                <a href="mailto:talent@socialbase.com.br" target="_blank" rel="noreferrer">Seja um Baser</a>
                 <a href="<?= SITE_URL; ?>/sobre">Sobre nós</a>
                 <a href="https://blog.socialbase.com.br" target="_blank" rel="noreferrer">Blog</a>
                 <a href="<?= SITE_URL; ?>/politica-de-privacidade">Política de privacidade</a>

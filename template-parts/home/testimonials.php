@@ -9,7 +9,7 @@
 
       <div class="col-lg-4 order-lg-4 d-flex align-items-center bg-gray">
         <div class="col">
-          <p>"Nós tínhamos várias iniciativas de comunicação interna, mas não estavamos totalmente satisfeitos. Quando conhecemos a SocialBase, soubemos que era disso que precisávamos e foi um sucesso."</p>
+          <p>"Nós tínhamos várias iniciativas de comunicação interna, mas não estávamos totalmente satisfeitos. Quando conhecemos a SocialBase, soubemos que era disso que precisávamos e foi um sucesso."</p>
           <strong>Khomp</strong>
         </div>
       </div>
