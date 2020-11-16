@@ -211,6 +211,8 @@ var RegisterSB = ( function () {
         $('#response-card').show();
         $('#response-email').html(data.email);
         $('#response-url-id').attr('href', data.url);
+
+        runBar();
       }
 
     },
@@ -242,6 +244,23 @@ var RegisterSB = ( function () {
 $( function () {
   RegisterSB.init();
 });
+
+function runBar() {
+  var elem = document.getElementById('bar');
+  var width = 1;
+  var id = setInterval(frame, 600);
+
+  function frame() {
+    if (width >= 100) {
+      clearInterval(id);
+      $('#response-url-id').show();
+      $('#message').hide();
+    } else {
+      width++;
+      elem.style.width = width + '%';
+    }
+  }
+};
 
 function checkDevice() {
   if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {

@@ -147,7 +147,7 @@
 
   </div>
 
-  <div class="card" id="response-card">
+  <div class="card" style="display: none" id="response-card">
     <h1>Tudo certo para você começar!</h1>
     <p>Agora você tem acesso a tudo que precisa para construir uma comunicação mais simples, transparente e organizada para que todos na sua empresa trabalhem melhor e mais felizes.</p>
     <hr>
@@ -156,7 +156,14 @@
     <p class="response-infos">SENHA: <span class="purple">como escolhida anteriormente</span></p>
     <hr>
 
-    <a id="response-url-id" type="button" target="_blank" class="btn btn-blue">ACESSE A PLATAFORMA</a>
+    <div id="message">
+      <p>Por favor aguarde, estamos preparando a melhor expêriencia em comunicação interna.</p>
+      <div class="border" id="bar-border" style="border-radius: 20px; border: 1px solid #ccc;">
+        <div class="bar" id="bar" style="border-radius: 20px; height: 30px; width: 1%; background-color: #26a0f5"></div>
+      </div>
+    </div>
+
+    <a id="response-url-id" type="button" target="_blank" style="display: none" class="btn btn-blue">ACESSE A PLATAFORMA</a>
   </div>
 
 </div>

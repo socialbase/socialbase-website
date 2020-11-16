@@ -25,7 +25,7 @@
 
                 <div class="form-group">
                   <small>Não sabe qual sua URL? <a href="#search-url" data-toggle="tab" rel="nofollow">Descubra como é fácil.</a></small>
-                  <small>Ainda não tem uma conta? <a href="https://socialbase.com.br/cadastro">Conheça a SocialBase.</a></small>
+                  <small>Ainda não tem uma conta? <a href="/sobre">Conheça a SocialBase.</a></small>
                 </div>
 
               </fieldset>
@@ -88,7 +88,7 @@
                 </div>
 
                 <div class="form-group">
-                  <small>Ainda não tem uma conta? <a href="https://socialbase.com.br/cadastro">Conheça a SocialBase.</a></small>
+                  <small>Ainda não tem uma conta? <a href="/sobre">Conheça a SocialBase.</a></small>
                 </div>
 
               </fieldset>
