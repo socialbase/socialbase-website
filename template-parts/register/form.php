@@ -200,4 +200,10 @@
 #response-card {
   font-family: 'Montserrat', sans-serif !important;
 }
+
+#password-error {
+  position: absolute;
+  top: 40px;
+  right: 25px;
+}
 </style>
