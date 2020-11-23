@@ -11,3 +11,9 @@
     </div>
   </div>
 </section>
+
+<style>
+  .img-fluid {
+    border-radius: 20px;
+  }
+</style>

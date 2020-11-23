@@ -38,11 +38,6 @@
     				</div>
 
             <div class="form-group">
-    					<label for="company">Empresa</label>
-    					<input type="text" name="company" id="company" class="form-control" />
-    				</div>
-
-            <div class="form-group">
               <label for="password">Senha</label>
               <div class="input-group">
                 <input type="password" placeholder="Mínimo 8 dígitos" name="password" id="password" class="form-control" />
@@ -120,6 +115,11 @@
           <div class="tab-pane fade" id="step3">
 
             <div class="form-group">
+              <label for="company">Empresa</label>
+              <input type="text" name="company" id="company" class="form-control" />
+            </div>
+
+            <div class="form-group">
     					<label for="company_url">Escolha a URL para sua empresa</label>
               <div class="input-group">
                 <input type="text" name="company_url" id="company_url" class="form-control" />
@@ -138,7 +138,7 @@
         </div>
 
         <div class="form-group" id="form-buttons">
-          <button type="button" id="back" style="display: none" class="btn btn-link btn-prev">Voltar</button>
+          <button type="button" id="back" style="opacity: 0" class="btn btn-link btn-prev">Voltar</button>
           <button type="submit" class="btn btn-blue btn-next float-right">Continuar</button>
         </div>
 
@@ -147,13 +147,15 @@
 
   </div>
 
-  <div class="card" style="display: none" id="response-card">
+  <div class="card" id="response-card" style="display: none">
     <h1>Tudo certo para você começar!</h1>
     <p>Agora você tem acesso a tudo que precisa para construir uma comunicação mais simples, transparente e organizada para que todos na sua empresa trabalhem melhor e mais felizes.</p>
     <hr>
-    <h1 class="infos">INFORMAÇÕES DE LOGIN</h1>
-    <p class="response-infos">EMAIL: <span class="purple" id="response-email"></span></p>
-    <p class="response-infos">SENHA: <span class="purple">como escolhida anteriormente</span></p>
+    <div class="infos-box">
+      <h1 class="infos">INFORMAÇÕES DE LOGIN</h1>
+      <p class="response-infos">EMAIL: <span class="purple" id="response-email"></span></p>
+      <p class="response-infos">SENHA: <span class="purple">como escolhida anteriormente</span></p>
+    </div>
     <hr>
 
     <div id="message">
@@ -171,6 +173,14 @@
 <style>
 #response-card hr {
   margin-bottom: 40px;
+}
+
+#message {
+  padding-bottom: 40px;
+}
+
+.infos-box {
+  padding-bottom: 10px;
 }
 #response-card .infos {
   letter-spacing: 0.09em;
@@ -205,5 +215,11 @@
   position: absolute;
   top: 40px;
   right: 25px;
+}
+
+#form-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 60px;
 }
 </style>

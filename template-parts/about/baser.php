@@ -10,7 +10,7 @@
         <p class="subtitle">Seja um Baser</p>
         <h2>Um time pronto para transformar <br class="d-none d-lg-block" /> o mundo corporativo.</h2>
         <p>Somos transparentes sempre. Temos autonomia para colaborar e debater o que fizemos, o que fazemos e o que faremos. Compartilhamos motivações, experiências e celebrações a cada nova conquista. É nisso que acreditamos e é assim que agimos: juntos.</p>
-        <a href="mailto:talent@socialbase.com.br" class="btn btn-blue btn-lg mt-4" rel="nofollow">Entre para a equipe</a>
+        <a href="mailto:talent@socialbase.com.br" style="margin-top: 40px!important;" class="btn btn-blue btn-lg mt-4" rel="nofollow">Entre para a equipe</a>
       </div>
 
     </div>

@@ -50,7 +50,7 @@ var RegisterSB = ( function () {
         $('.nav li a[href="'+prev+'"]').tab('show');
         
         if (prev === '#step1') {
-          $('#back').css('display', 'none');
+          $('#back').css('opacity', '0');
         }
       }
     });
@@ -130,6 +130,7 @@ var RegisterSB = ( function () {
         password: {
           required: true,
           minlength: 8,
+          maxlength: 20,
         },
         company_name: {
           required: true,
@@ -169,7 +170,7 @@ var RegisterSB = ( function () {
 
         console.log(next);
         if (next === '#step2') {
-          $('#back').css('display', 'block');
+          $('#back').css('opacity', '1');
         }
       } else {
         sb_submit.register();
