@@ -215,7 +215,7 @@ var RegisterSB = ( function () {
 
         runBar();
       } else {
-        window.location.href = '/mobile-trial';
+        window.location.href = '/mobile';
       }
 
     },
