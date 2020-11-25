@@ -207,13 +207,15 @@ var RegisterSB = ( function () {
 		register: function ( response ) {
       let data = JSON.parse(response);
 
-      if ( data ) {
+      if ( data && checkDevice() === 'desktop') {
         $('#form-card').hide();
         $('#response-card').show();
         $('#response-email').html(data.email);
         $('#response-url-id').attr('href', data.url);
 
         runBar();
+      } else {
+        window.location.href = '/mobile-trial';
       }
 
     },
@@ -266,7 +268,9 @@ function runBar() {
 function checkDevice() {
   if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
     $('#register_tech').val('Mobile');
+    return 'mobile';
   } else {
     $('#register_tech').val('Desktop');
+    return 'desktop';
   }
 };
