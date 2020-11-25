@@ -1,5 +1,5 @@
 <div class="mobile-finish">
-  <img src="<?= ASSETS_IMAGES_URI; ?>/logos/socialbase_logotipo_branca_1.png" class="logo" />
+  <a href="<?= SITE_URL; ?>"><img src="<?= ASSETS_IMAGES_URI; ?>/logos/socialbase_logotipo_branca_1.png" class="logo" /></a>
   <h1>Parabéns! Agora você tem acesso à sua plataforma da SocialBase pelo computador</h1>
 
   <div class="white-block">
