@@ -39,7 +39,7 @@
         'job_title' => $company_office,
         'phone' => $phone,
         'url' => $company_url,
-        'invites' => '',
+        'invites' => $company_invites,
       );
 
       $options = array(
