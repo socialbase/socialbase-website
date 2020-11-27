@@ -13,7 +13,9 @@
 </section>
 
 <style>
-  .img-fluid {
+  .slick-slider .img-fluid {
     border-radius: 20px;
+    height: 290px;
+    min-height: 290px!important;
   }
 </style>

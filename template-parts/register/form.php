@@ -147,7 +147,7 @@
 
   </div>
 
-  <div class="card" id="response-card" style="display: none">
+  <div class="card" style="display: none" id="response-card">
     <h1>Tudo certo para você começar!</h1>
     <p>Agora você tem acesso a tudo que precisa para construir uma comunicação mais simples, transparente e organizada para que todos na sua empresa trabalhem melhor e mais felizes.</p>
     <hr>
@@ -185,6 +185,8 @@
 #response-card .infos {
   letter-spacing: 0.09em;
   font-size: 16px;
+  font-family: 'Montserrat', sans-serif !important;
+  font-weight: bold;
 }
 
 #response-card .response-infos {

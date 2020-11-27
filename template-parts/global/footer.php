@@ -34,7 +34,7 @@
                 <h6>Contato</h6>
                 <a href="tel:+554840092133" class="phone" rel="noreferrer">+55 (48) 4009-2133</a>
                 <a href="mailto:comercial@socialbase.com.br" class="email" rel="nofollow">comercial@socialbase.com.br</a>
-                <a href="https://goo.gl/maps/MexQvbbyJGx" class="address" target="_blank" rel="noreferrer">Rod. Admar Gonzaga, 440 <br /> CEP: 88034-000 <br /> Lemonadde Office, 5º Andar <br /> Ed. America Officenter</a>
+                <a href="https://goo.gl/maps/MexQvbbyJGx" class="address" target="_blank" rel="noreferrer">Rod. Admar Gonzaga, 440 <br /> CEP: 88034-000 <br /> Lemonadde Office, Sala 201 <br /> Ed. America Officenter</a>
 
                 <div class="nav social ml-md-3">
                   <a href="https://www.facebook.com/socialbase" target="_blank" rel="noreferrer"><span class="icon-facebook"></span></a>
