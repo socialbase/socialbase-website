@@ -16,7 +16,7 @@
     $company_url = $_POST['company_url'];
     $department = $_POST['company_sector'];
     $company_invite = $_POST['company_invite'];
-    $phone = '8932139821';
+    $phone = $_POST['phone'];
     $tech = $_POST['tech'];
 
     if ($company_invite) {
@@ -39,7 +39,7 @@
         'job_title' => $company_office,
         'phone' => $phone,
         'url' => $company_url,
-        'invites' => $company_invites,
+        'invites' => $company_invite,
       );
 
       $options = array(
