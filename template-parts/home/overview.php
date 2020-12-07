@@ -13,7 +13,7 @@
         <p class="subtitle">Uma solução de comunicação</p>
         <h2>Sem mais nem menos, <br class="d-none d-sm-block" /> na medida para a sua empresa.</h2>
         <p>Quando o assunto é a comunicação interna a gente sabe que não se trata apenas de manter a intranet atualizada com o último comunicado corporativo. É preciso ir muito além para que as pessoas se engajem e colaborem de forma produtiva!</p>
-        <p class="mt-30">Todos precisam se comunicar: é só levando isso a sério que o engajamento real se torna possível! E a SocialBase te ajuda!</p>
+        <p class="mt-30">Todos precisam se comunicar: é só levando isso a sério que o engajamento real se torna possível! E o SocialBase te ajuda!</p>
       </div>
 
     </div>
@@ -29,7 +29,7 @@
         <h2>Mais que acompanhar, <br class="d-none d-sm-block" /> a ideia é planejar junto.</h2>
         <p>Uma coisa é fato, você não está sozinho nessa. Para sua comunicação fluir, a gente vai estar do seu lado em todo o processo. Sim, um consultor especialmente para te ajudar no que for preciso. Quer diferencial maior que esse? Então prepare-se para planejar suas próximas estratégias de comunicação interna junto com a gente.</p>
         <blockquote class="mt-20">
-          <p>A cultura da Senior sempre foi muito colaborativa e nosso desafio era fazer a comunicação interna também promover essa colaboração, buscar a descentralização e ser mais rápida. Encontramos na SocialBase uma solução completa porque, além da ferramenta, a gente tem um apoio de estratégia por trás.</p>
+          <p>A cultura da Senior sempre foi muito colaborativa e nosso desafio era fazer a comunicação interna também promover essa colaboração, buscar a descentralização e ser mais rápida. Encontramos no SocialBase uma solução completa porque, além da ferramenta, a gente tem um apoio de estratégia por trás.</p>
           <cite><strong>Fernanda Mueller</strong> Analista de Comunicação Interna - Senior</cite>
         </blockquote>
       </div>

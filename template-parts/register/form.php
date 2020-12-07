@@ -171,12 +171,17 @@
 </div>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 #response-card hr {
   margin-bottom: 40px;
 }
 
 #message {
   padding-bottom: 40px;
+}
+
+#response-card hr {
+  opacity: 0.4;
 }
 
 .infos-box {
@@ -186,18 +191,19 @@
   letter-spacing: 0.09em;
   font-size: 16px;
   font-family: 'Montserrat', sans-serif !important;
-  font-weight: bold;
+  font-weight: 700;
 }
 
 #response-card .response-infos {
   font-size: 12px;
-  font-weight: 700 !important;
+  font-weight: 700!important;
   color: #38416F !important;
+  letter-spacing: 0.09em;
 }
 
 #response-card span {
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 100;
   font-family: 'Montserrat', sans-serif;
   color: #5A2ADF;
   margin-left: 10px;

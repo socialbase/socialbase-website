@@ -1,9 +1,25 @@
+
+<style>
+.list {
+  list-style: none!important;
+}
+.list li::before {
+  content: "\2022";
+  color: #9D81EB;
+  font-weight: bold;
+  display: inline-block;
+  font-size: 30px;
+  width: 1em;
+  margin-left: -1em;
+}
+</style>
+
 <article>
   <h1 id="politica-de-privacidade">Política de Privacidade</h1>
   <p>Nesta Política de Privacidade, o termo “<a href="http://www.socialbase.com.br" target="_blank" rel="noreferrer">www.socialbase.com.br</a>” se refere ao nosso website corporativo, cuja homepage está localizada em <a href="http://www.socialbase.com.br" target="_blank" rel="noreferrer">www.socialbase.com.br</a>; já a rede SocialBase, ou apenas rede, se refere à solução de comunicação interna baseada em uma rede social corporativa, ou seja, o nosso produto; os termos “nos”, “nós” ou “nosso” se referem a SocialBase Soluções em Tecnologia S.A., proprietária do <a href="http://www.socialbase.com.br" target="_blank" rel="noreferrer">www.socialbase.com.br</a>, e os termos “você” ou “usuário” se referem ao usuário da rede ou visitante do <a href="http://www.socialbase.com.br" target="_blank" rel="noreferrer">www.socialbase.com.br</a>. As informações dessa Política de Privacidade se aplicam ao nosso website corporativo e às redes de nossos clientes.</p>
   <h2 id="tratamento-de-dados">Tratamento de dados através da Rede Social Corporativa SocialBase </h2>
   <p>Sua privacidade é fundamental para a SocialBase. Cada empresa ou organização que utiliza a rede da SocialBase está localizada em uma rede separada, o que garante a privacidade de seus usuários e do conteúdo publicado por cada um na rede. Ela, a rede, funciona da seguinte forma:</p>
-  <ul>
+  <ul class="list">
     <li>Sua rede é definida sempre pelo nome da empresa seguida por “.socialbase.com.br”. Já o acesso a sua rede, por padrão, é executado pelo domínio do e-mail de sua empresa ou organização. Por exemplo, todos os usuários que se cadastrarem com um endereço de e-mail “@xxxxxxx.com.br” farão parte da rede “xxxxxxx.socialbase.com.br”. Para fazer parte de uma rede, você deve confirmar seu endereço de e-mail.</li>
     <li>É possível que sua rede possua uma URL diferente, ou que seu acesso não seja feito por e-mail. Nesses casos, procure a equipe de comunicação interna da sua empresa.</li>
     <li>Somente as pessoas em sua rede podem visualizar os seus perfis e feeds.</li>
@@ -13,7 +29,7 @@
     <li>A empresa SocialBase instituiu medidas para proteger a segurança dos dados de cada rede.</li>
   </ul>
   <h2 id="uso-da-rede-social">Informações referentes ao uso da Rede Social Corporativa SocialBase</h2>
-  <ul>
+  <ul class="list">
     <li>As empresas que implementam sua rede podem impor requisitos adicionais de segurança além daqueles descritos nesta Política de Privacidade. Exemplos de tais restrições incluem sessões seguras, políticas de senha e acesso restrito ao intervalo de protocolo interno de sua rede privada virtual.</li>
     <li>Você fornecerá Informações Pessoais para o preenchimento do seu perfil de usuário, tais como seu nome e endereço de e-mail, ao registrar uma conta como usuário da rede. Você também pode escolher adicionar outras informações, como uma foto, a seu perfil.</li>
     <li>De forma geral, você pode nos fornecer dois tipos de informação: o conteúdo do usuário, que pode incluir Informações Pessoais, e Informações sobre Uso da Rede, ambos apresentados em maiores detalhes abaixo:</li>
@@ -38,13 +54,13 @@
   <h2 id="dados-pessoais">Consentimento para Transferência Internacional e Processamento de Dados Pessoais</h2>
   <p>Ao nos fornecer Informações Pessoais através de nossa rede, você concorda que elas podem ser utilizadas por nós e por nossas Partes Afiliadas para os fins descritos neste documento e compreende e consente ainda com a coleta, manutenção, processamento e transferência de tais informações no Brasil e em outros países e territórios e para tais locais, que podem ter leis de privacidade diferentes das do Brasil e que podem proporcionar níveis variados de proteção para suas Informações Pessoais. Independentemente das leis em vigor nesses países, trataremos a privacidade de suas informações de acordo com esta Política de Privacidade. Ao fornecer suas Informações Pessoais para nosso website ou rede, você consente com nossa transmissão e processamento de suas informações em qualquer jurisdição, de acordo com esta Política de Privacidade.</p>
   <h2 id="informacoes-de-seguranca">Informações gerais a respeito de segurança empregada pela SocialBase</h2>
-  <ul>
+  <ul class="list">
     <li>A SocialBase utiliza proteções físicas, administrativas e técnicas comercialmente razoáveis e padrão da indústria para preservar a integridade e segurança de suas Informações Pessoais. Também utilizamos a criptografia Secure Sockets Layer (SSL) para transmitir informações confidenciais. Embora a SocialBase se esforce para proteger a segurança e integridade de Informações Pessoais delicadas fornecidas a rede, devido à natureza inerente da Internet como um veículo aberto de comunicação global, não podemos garantir que as informações, durante a transmissão através da Internet ou enquanto estiverem armazenadas em nossos sistemas ou de outra forma sob nosso cuidado, estarão seguras da intrusão de outros, como, por exemplo, hackers.</li>
     <li>Caso você entre em contato conosco por e-mail, através do “fale conosco” ou de um recurso semelhante na rede, você deve estar ciente de que sua transmissão pode não ser segura. Um terceiro não afiliado pode visualizar as informações que você envia por esses métodos em trânsito. Não teremos qualquer responsabilidade pela divulgação de suas informações devido a erros ou atos não autorizados de terceiros durante ou após a transmissão.</li>
     <li>Na hipótese improvável de acreditarmos que a segurança de suas Informações Pessoais em nossa posse ou controle pode ter sido comprometida, iremos procurar lhe notificar sobre tal fato. Nós nos esforçaremos para fazê-lo tão prontamente quanto possível nas circunstâncias e, na medida em que tivermos seu endereço de e-mail, podemos lhe notificar dessa forma. Você consente nosso uso do seu e-mail como meio para tal notificação. Caso prefira que utilizemos outro método para lhe notificar nessa situação, envie-nos um e-mail para o endereço ‘<a href="mailto:contato@SocialBase.com.br">contato@SocialBase.com.br</a>’ com as informações de contato alternativas que você deseja que sejam utilizadas.</li>
   </ul>
   <h2 id="informacoes-desta-politica">Informações gerais a respeito desta política</h2>
-  <ul>
+  <ul class="list">
     <li>Nós nos reservamos o direito de transferir qualquer informação que temos sobre você na hipótese de vendermos ou transferirmos todo ou uma fração de nosso negócio ou ativos. Caso tal venda ou transferência ocorra, envidaremos esforços razoáveis para orientar o cessionário a utilizar as informações pessoais que você forneceu através da rede de uma forma que seja consistente com esta Política de Privacidade. Caso isso ocorra, nós lhe notificaremos conforme descrito na seção “Atualizações a nossa Política de Privacidade”.</li>
     <li>Na medida em que atualizamos e expandimos nosso website e rede, esta Política de Privacidade pode ser alterada. Dessa forma, solicitamos que verifique frequentemente esta web page para obter as atualizações a nossa Política de Privacidade.</li>
     <li>Você tem o direito de se recusar a submeter Informações Pessoais através da rede, caso em que a SocialBase poderá não ser capaz de lhe prestar certos serviços. Entretanto, caso escolha fornecer Informações Pessoais para a SocialBase, nós lhe forneceremos a capacidade de acessar, corrigir, atualizar ou excluir as Informações Pessoais que você forneceu a rede e website, enviando um e-mail para ‘<a href="mailto:contato@SocialBase.com.br">contato@SocialBase.com.br</a>’. Responderemos sua solicitação no prazo de 15 dias, porém, antes de podermos lhe fornecer qualquer informação ou corrigir quaisquer inexatidões, podemos lhe solicitar que verifique sua identidade e forneça outros detalhes para nos ajudar a responder sua solicitação.</li>
@@ -53,3 +69,4 @@
     <li>Esta Política de Privacidade pode ser atualizada periodicamente e sem lhe dar notificação prévia a fim de refletir as mudanças em nossas práticas de informação on-line. Postaremos uma notificação visível em nossa rede e website para lhe notificar sobre quaisquer mudanças significativas a nossa Política de Privacidade e indicaremos na parte superior da declaração quando foi mais recentemente atualizada.</li>
   </ul>
 </article>
+

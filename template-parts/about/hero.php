@@ -15,3 +15,9 @@
     </div>
   </div>
 </section>
+
+<script>
+  document.title = "Quem somos e o que acreditamos | SocialBase";
+  document.querySelector('meta[name="description"]').setAttribute("content", 'Conheça mais do nosso propósito, valores e qual acreditamos ser o caminho para conectar pessoas e transformar o mundo corporativo.');
+  document.querySelector('meta[name="title"]').setAttribute("content", 'Quem somos e o que acreditamos | SocialBase');
+</script>

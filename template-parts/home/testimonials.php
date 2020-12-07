@@ -9,7 +9,7 @@
 
       <div class="col-lg-4 order-lg-4 d-flex align-items-center bg-gray">
         <div class="col">
-          <p>"Nós tínhamos várias iniciativas de comunicação interna, mas não estávamos totalmente satisfeitos. Quando conhecemos a SocialBase, soubemos que era disso que precisávamos e foi um sucesso."</p>
+          <p>"Nós tínhamos várias iniciativas de comunicação interna, mas não estávamos totalmente satisfeitos. Quando conhecemos o SocialBase, soubemos que era disso que precisávamos e foi um sucesso."</p>
           <strong>Khomp</strong>
         </div>
       </div>
@@ -20,7 +20,7 @@
 
       <div class="col-lg-4 order-lg-2 d-flex align-items-center bg-gray">
         <div class="col">
-          <p>"A SocialBase nos possibilitou aumentar a interatividade dos nossos mais de 3 mil colaboradores e parceiros. Hoje temos uma troca de informação mais ágil."</p>
+          <p>"O SocialBase nos possibilitou aumentar a interatividade dos nossos mais de 3 mil colaboradores e parceiros. Hoje temos uma troca de informação mais ágil."</p>
           <strong>Portobello</strong>
         </div>
       </div>
@@ -31,7 +31,7 @@
 
       <div class="col-lg-4 order-lg-6 d-flex align-items-center bg-gray">
         <div class="col">
-          <p>"Encontramos na SocialBase uma solução completa porque, além da ferramenta, a gente tem um apoio de estratégia por trás."</p>
+          <p>"Encontramos no SocialBase uma solução completa porque, além da ferramenta, a gente tem um apoio de estratégia por trás."</p>
           <strong>Senior</strong>
         </div>
       </div>
