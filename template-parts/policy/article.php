@@ -15,7 +15,7 @@
 </style>
 
 <article>
-  <h1 id="politica-de-privacidade">Política de Privacidade</h1>
+  <h1 id="politica-de-privacidade">Política de Privacidade SocialBase</h1>
   <p>Nesta Política de Privacidade, o termo “<a href="http://www.socialbase.com.br" target="_blank" rel="noreferrer">www.socialbase.com.br</a>” se refere ao nosso website corporativo, cuja homepage está localizada em <a href="http://www.socialbase.com.br" target="_blank" rel="noreferrer">www.socialbase.com.br</a>; já a rede SocialBase, ou apenas rede, se refere à solução de comunicação interna baseada em uma rede social corporativa, ou seja, o nosso produto; os termos “nos”, “nós” ou “nosso” se referem a SocialBase Soluções em Tecnologia S.A., proprietária do <a href="http://www.socialbase.com.br" target="_blank" rel="noreferrer">www.socialbase.com.br</a>, e os termos “você” ou “usuário” se referem ao usuário da rede ou visitante do <a href="http://www.socialbase.com.br" target="_blank" rel="noreferrer">www.socialbase.com.br</a>. As informações dessa Política de Privacidade se aplicam ao nosso website corporativo e às redes de nossos clientes.</p>
   <h2 id="tratamento-de-dados">Tratamento de dados através da Rede Social Corporativa SocialBase </h2>
   <p>Sua privacidade é fundamental para a SocialBase. Cada empresa ou organização que utiliza a rede da SocialBase está localizada em uma rede separada, o que garante a privacidade de seus usuários e do conteúdo publicado por cada um na rede. Ela, a rede, funciona da seguinte forma:</p>
