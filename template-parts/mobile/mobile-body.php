@@ -1,5 +1,5 @@
 <div class="mobile-finish">
-  <a href="<?= SITE_URL; ?>"><img src="<?= ASSETS_IMAGES_URI; ?>/logos/socialbase_logotipo_branca_1.png" class="logo" /></a>
+  <a href="<?= SITE_URL; ?>"><img src="<?= ASSETS_IMAGES_URI; ?>/logos/socialbase-logo.svg" class="logo" /></a>
   <h1>Parabéns! Agora você tem acesso à sua plataforma da SocialBase pelo computador</h1>
 
   <div class="white-block">
@@ -11,7 +11,7 @@
 
 <style>
   .mobile-finish {
-    background:linear-gradient(150deg,#359aea 35%,#00d9fb 80%);
+    background: #F6FBFD;
     min-height: 100vh;
     min-width: 100vw;
     padding: 30px 30px;
@@ -32,12 +32,12 @@
   }
 
   .white-block span {
-    color: #359aea;
+    color: #38416F;
     font-weight: 700;
   }
 
   .text {
-    color: #fff;
+    color: #8B8F9D;
     font-weight: 400;
     text-align: center;
     padding: 20px;
@@ -53,7 +53,7 @@
 
   h1 {
     font-size: 27px;
-    color: #fff;
+    color: #38416F;
     font-weight: 700;
     text-align: center;
     margin-bottom: 30px;
