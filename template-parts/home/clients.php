@@ -16,7 +16,6 @@
         <div><img src="<?= ASSETS_IMAGES_URI; ?>/clients/socialbase-cliente-khomp.png" width="200" height="70" alt="Khomp" /></div>
         <div><img src="<?= ASSETS_IMAGES_URI; ?>/clients/socialbase-cliente-embraed.png" width="200" height="70" alt="Embraed" /></div>
         <div><img src="<?= ASSETS_IMAGES_URI; ?>/clients/socialbase-cliente-omni.png" width="200" height="70" alt="Omni Taxi Aereo" /></div>
-        <div><img src="<?= ASSETS_IMAGES_URI; ?>/clients/socialbase-cliente-acsc.png" width="200" height="70" alt="Associação Congregação de Santa Catarina" /></div>
         <div><img src="<?= ASSETS_IMAGES_URI; ?>/clients/socialbase-cliente-genesis.png" width="200" height="70" alt="Genesis Group" /></div>
         <div><img src="<?= ASSETS_IMAGES_URI; ?>/clients/socialbase-cliente-koerich.png" width="200" height="70" alt="Koerich" /></div>
       </div>
