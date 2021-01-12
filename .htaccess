@@ -1,3 +1,7 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.socialbase.com.br [NC]
+RewriteRule ^(.*)$ https://socialbase.com.br/$1 [L,R=301]
+
 ################################################################
 # Start Default Setting
 ################################################################

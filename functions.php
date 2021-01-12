@@ -2,8 +2,10 @@
 
   /*
   	Theme Name: SocialBase
-  	Author: Weslei Silveira
+    Author: Weslei Silveira
   	Author URI: https://wesleisilveira.com.br
+    Maintaince: Leonardo de Almeida
+    Maintaince URI: https://lewalmeida.com.br
   	Version: 1.0.0
   */
 
