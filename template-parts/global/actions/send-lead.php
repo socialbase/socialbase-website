@@ -7,7 +7,7 @@
         //Envia os dados para RD, primeiro argumento é o token privado e o segundo o publico
         $rdAPI = new RDStationAPI("b4c77961b56365cf0c3473428348926d","26a20461c98ce755c35e78c47fd23205");
         $returnoRD = $rdAPI->sendNewLead($_POST['lead_email'],array(
-          'identificador' => $_POST['conversion_identifier'],
+          'conversion_identifier' => $_POST['conversion_identifier'],
           'nome' => $_POST['lead_name'],
           'telefone' => $_POST['lead_phone'],
           'Setor_OK' => $_POST['lead_sector'],
