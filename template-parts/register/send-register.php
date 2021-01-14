@@ -18,11 +18,13 @@
     $company_invite = $_POST['company_invite'];
     $phone = $_POST['phone'];
     $tech = $_POST['tech'];
+    $invites = $_POST['company_invite'];
 
     if ($company_invite) {
       $company_invite = explode(',', $company_invite);
     } else {
       $company_invite = 'Não efetuou convites';
+      $invites = 'Não efetuou convites';
     }
 
     if ($company_url) {
@@ -66,7 +68,7 @@
         'nome' => $name,
         'telefone' => $phone,
         'Setor_OK' => $company_sector,
-        'qtd_funcionarios' => $company_employees,
+        'quantidade-de-funcionarios_OK' => $company_employees,
         'empresa' => $company,
         'CargoNovo' => $company_office,
         'convidados-trial' => $company_invite,
@@ -99,7 +101,7 @@
         'origin' => $conversion_identifier,
         'conversion_identifier' => $conversion_identifier,
         'gptw' => $company_certificate,
-        'invites' => $company_invite,
+        'invites' => $invites,
         'started_at' => date("m/d/Y"),
         'end_at' => date('m/d/Y',strtotime('+30 days')),
         'url' => $company_url,
