@@ -69,7 +69,13 @@ var LeadSB = ( function () {
         },
         lead_help: {
           required: true
-        }
+        },
+        lead_company: {
+          required: true
+        },
+        lead_company_employees: {
+          required: true
+        },
       },
       messages: {
         lead_email: {

@@ -7,6 +7,7 @@
         //Envia os dados para RD, primeiro argumento é o token privado e o segundo o publico
         $rdAPI = new RDStationAPI("b4c77961b56365cf0c3473428348926d","26a20461c98ce755c35e78c47fd23205");
         $returnoRD = $rdAPI->sendNewLead($_POST['lead_email'],array(
+          'identificador' => $_POST['conversion_identifier'],
           'conversion_identifier' => $_POST['conversion_identifier'],
           'nome' => $_POST['lead_name'],
           'telefone' => $_POST['lead_phone'],
@@ -16,6 +17,8 @@
           // 'traffic_source' => $_POST['traffic_source'],
           'tech' => $_POST['tech'],
           'lead_help' => $_POST['lead_help'],
+          'empresa' => $_POST['lead_company'],
+          'quantidade-de-funcionarios_OK' => $_POST['lead_company_employees'],
         ));
 
         if($returnoRD != 202){
@@ -29,9 +32,11 @@
           'email' => $_POST['lead_email'],
           'phone' => $_POST['lead_phone'],
           'department' => $_POST['lead_sector'],
+          'company' => $_POST['lead_company'],
           'tipo_pedido' => $_POST['order_type'],
           'origin' => $_POST['conversion_identifier'],
           'conversion_identifier' => $_POST['conversion_identifier'],
+          'company_size' => $_POST['lead_company_employees'],
           // 'traffic_source' => $_POST['traffic_source'],
           'tech' => $_POST['tech'],
           'lead_help' => $_POST['lead_help'],

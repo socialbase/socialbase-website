@@ -35,6 +35,26 @@
             </div>
 
             <div class="form-group">
+              <label for="lead_company">Empresa</label>
+              <input type="text" name="lead_company" id="lead_company" class="form-control" />
+            </div>
+
+            <div class="form-group">
+    					<label for="lead_company_employees">Quantos funcionários há na empresa?</label>
+    					<select name="lead_company_employees" id="lead_company_employees" class="form-control">
+    						<option value="" selected="selected" disabled="disabled" hidden="hidden">&nbsp;</option>
+                <option value="Menos de 50">Menos de 50</option>
+                <option value="De 51 a 100">De 51 a 100</option>
+                <option value="De 101 a 300">De 101 a 300</option>
+                <option value="De 301 a 500">De 301 a 500</option>
+                <option value="De 501 a 1000">De 501 a 1000</option>
+                <option value="De 1001 a 2000">De 1001 a 2000</option>
+                <option value="De 2001 a 5000">De 2001 a 5000</option>
+                <option value="Mais de 5000">Mais de 5000</option>
+    					</select>
+    				</div>
+
+            <div class="form-group">
               <label for="lead_sector">Em qual setor da empresa você atua?</label>
               <select name="lead_sector" id="lead_sector" class="form-control select">
                 <option value="" selected="selected" disabled="disabled" hidden="hidden">&nbsp;</option>
