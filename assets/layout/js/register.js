@@ -146,7 +146,11 @@ var RegisterSB = ( function () {
         },
         company_certificate: {
           required: true,
-        }
+        },
+        company_url: {
+          minlength: 3,
+          maxlength: 15,
+        },
       },
       messages: {
         email: {

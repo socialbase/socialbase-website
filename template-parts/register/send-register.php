@@ -28,6 +28,8 @@
     }
 
     if ($company_url) {
+      $company_url = str_replace('.', '', $company_url);
+      $company_url = str_replace(' ', '', $company_url);
       $company_url = 'https://' . $company_url . '.socialbase.com.br';
     }
 

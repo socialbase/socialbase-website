@@ -274,4 +274,10 @@
   justify-content: space-between;
   margin-top: 60px;
 }
+
+#company_url-error {
+  position: absolute;
+  margin-left: -25px;
+  margin-top: 50px;
+}
 </style>
