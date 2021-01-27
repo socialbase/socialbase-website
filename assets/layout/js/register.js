@@ -22,11 +22,10 @@ var RegisterSB = ( function () {
     if ( typeof $.fn.mask !== 'undefined' ) {
 
       var phone = $('#phone');
-      console.log(phone);
 
       phone.bind( 'paste', function (e) { e.preventDefault(); } );
 
-      var SPMaskBehavior = function (val) { return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '00 (00) 00000-0000'; },
+      var SPMaskBehavior = function (val) { return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '99 (00) 00000-0000'; },
         spOptions = {
         onKeyPress : function (val, e, field, options) {
           field.mask(SPMaskBehavior.apply({}, arguments), options);
