@@ -137,6 +137,9 @@ var RegisterSB = ( function () {
         company: {
           required: true,
         },
+        phone: {
+          required: true,
+        },
         password: {
           required: true,
           minlength: 8,
