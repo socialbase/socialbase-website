@@ -26,7 +26,7 @@ var RegisterSB = ( function () {
 
       phone.bind( 'paste', function (e) { e.preventDefault(); } );
 
-      var SPMaskBehavior = function (val) { return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '(00) 0000-00009'; },
+      var SPMaskBehavior = function (val) { return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '00 (00) 00000-0000'; },
         spOptions = {
         onKeyPress : function (val, e, field, options) {
           field.mask(SPMaskBehavior.apply({}, arguments), options);
@@ -38,7 +38,18 @@ var RegisterSB = ( function () {
 
     }
 
-	};
+  };
+
+  var sb_preventSpecialCharacters = function () {
+    $('#company_url').on('keypress', function (event) {
+      var regex = new RegExp("^[a-zA-Z0-9]+$");
+      var key = String.fromCharCode(!event.charCode ? event.which : event.charCode);
+      if (!regex.test(key)) {
+        event.preventDefault();
+        return false;
+      }
+    });
+  }
 
   var sb_events = function () {
 
@@ -241,6 +252,7 @@ var RegisterSB = ( function () {
       sb_form();
       sb_mask();
       checkDevice();
+      sb_preventSpecialCharacters();
     }
 
   };
