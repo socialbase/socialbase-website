@@ -76,8 +76,16 @@
     <link rel="stylesheet" href="<?= ASSETS_URI; ?>/plugins/slick/slick.min.css?v=<?= VERSION; ?>" />
     <link rel="stylesheet" href="<?= ASSETS_URI; ?>/layout/css/components/components.min.css?v=<?= VERSION; ?>" />
     <link rel="stylesheet" href="<?= ASSETS_URI; ?>/layout/css/register.min.css?v=<?= VERSION; ?>" />
-
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-PVR88JB');</script>
+    <!-- End Google Tag Manager -->
   </head>
   <body>
     <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=540922&conversionId=4031201&fmt=gif" />
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PVR88JB"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <main>
