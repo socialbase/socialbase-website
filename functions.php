@@ -13,7 +13,7 @@
   /*  Define URL global ROOT and URI folders
   /* ------------------------------------------------------------------------------- */
 
-  define ( 'SITE_URL', ( $_SERVER['SERVER_NAME'] == 'socialbase.com.br' ? 'https://socialbase.com.br' : 'http://localhost/website-2020/' ) );
+  define ( 'SITE_URL', ( $_SERVER['SERVER_NAME'] == 'socialbase.com.br' ? 'https://socialbase.com.br' : 'http://localhost/socialbase-website/' ) );
 
   define ( 'ASSETS_URI', SITE_URL.'/assets' );
 
