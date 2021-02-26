@@ -29,7 +29,7 @@
 
             <div class="form-group">
     					<label for="phone">Telefone</label>
-    					<input type="tel" name="phone" id="phone" class="form-control" />
+    					<input autocomplete="no" type="tel" name="phone" id="phone" class="form-control" />
     				</div>
 
             <div class="form-group">
