@@ -83,6 +83,24 @@
     'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-PVR88JB');</script>
     <!-- End Google Tag Manager -->
+
+    <!-- Event snippet for Trial SB - Lead captado conversion page
+    In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+    <script>
+    function gtag_report_conversion(url) {
+      var callback = function () {
+        if (typeof(url) != 'undefined') {
+          window.location = url;
+        }
+      };
+      gtag('event', 'conversion', {
+          'send_to': 'AW-772841588/8jL7CM7WuZcBEPTAwvAC',
+          'event_callback': callback
+      });
+      return false;
+    }
+    </script>
+
   </head>
   <body>
     <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=540922&conversionId=4031201&fmt=gif" />
