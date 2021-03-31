@@ -25,7 +25,7 @@ var RegisterSB = ( function () {
 
       phone.bind( 'paste', function (e) { e.preventDefault(); } );
 
-      var SPMaskBehavior = function (val) { return val.replace(/\D/g, '').length >= 11 ? '99 (00) 00000-0000' : '(00) 00000-0000'; },
+      var SPMaskBehavior = function (val) { return val.replace(/\D/g, '').length === 11 ? '(00) 00000-0000' : '00 (00) 00000-0000'; },
         spOptions = {
         onKeyPress : function (val, e, field, options) {
           field.mask(SPMaskBehavior.apply({}, arguments), options);
@@ -65,7 +65,7 @@ var RegisterSB = ( function () {
       }
     });
 
-// Adicionar .btn-next caso utilizar esse metodo
+// Adicionar .btn-next caso uteilizar esse metodo
 /*
     $('.btn-next').on( 'click', function () {
       var next = $('.nav li a.active').parent().next().find('a').attr('href');
@@ -237,7 +237,17 @@ var RegisterSB = ( function () {
 
     },
 
-		error: function () {}
+		error: function (response) {
+      let status = response.status;
+
+      if (status === 412) {
+        const validator = form_register.validate();
+
+        validator.showErrors({
+          company_url: 'URL já utilizada, por favor, tente outra',
+        });
+      }
+		},
 
 	};
 

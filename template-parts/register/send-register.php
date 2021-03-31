@@ -1,6 +1,10 @@
 <?php
-  header('Access-Control-Allow-Origin: *');
+  header('Access-Control-Allow-Origin: https://socialbase.com.br');
   require("../global/actions/RdStationAPI.php");
+
+  if(!$_POST['secret_key']) {
+      die('not allowed');
+  }
 
   if ( $_POST ) {
     $conversion_identifier = $_POST['conversion_identifier'];
@@ -61,13 +65,12 @@
       $pqlResult = file_get_contents($url, false, $context);
       $pqlResult = json_decode($pqlResult);
 
-      if ($pqlResult === FALSE) {
-        throw new Exception('Erro ao enviar para o relatório');
+      if ($pqlResult === null) {
+        http_response_code(412);
+        die("url exist");
       } else {
         $company_url = $pqlResult->url;
       }
-
-      sleep(5);
 
       // Envia os dados para RD, primeiro argumento é o token privado e o segundo o publico
       $rdAPI = new RDStationAPI("b4c77961b56365cf0c3473428348926d","26a20461c98ce755c35e78c47fd23205");
